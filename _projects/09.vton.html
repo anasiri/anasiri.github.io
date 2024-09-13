@@ -1,0 +1,49 @@
+---
+title: "Virtual Try-On"
+excerpt: "Used custom GANs to swap garments on a person, solving issues with resolution and limited data, trained distributedly
+<br/><img src='/images/project_overview/vton.jpg' style='width:600px; height:300px;'>"
+collection: projects
+---
+
+
+<p>
+   Virtual Try-On is a computer vision task in which the computer receives input from a person and a garment image. The goal is to replace the given garment on the person. Image generation may be complicated because the person can have any pose, shape, size, or clothing type (t-shirt, jacket, etc.).
+</p>
+<p>
+  To tackle this problem, we used some custom GANs, but there were some challenges:
+
+    <ol>
+    <li>
+      We needed the output to be high-resolution, but normal GANs cannot generate high-resolution images, and we had to solve this issue.
+    </li>
+    <li>
+      We had to train with an inadequate amount of data, and we had to deal with it.
+    </li>
+    <li>
+      We needed to speed up our training procedure as it took so long to train the models, and we tackled it with distributed training.
+    </li>
+    </ol>
+</p>
+<p>
+    Here are some of the sample pictures:
+</p>
+<p>
+    <img src="/images/project_imgs/vton/1.jpg" width="100%" >
+</p>
+<p>
+    <img src="/images/project_imgs/vton/2.jpg" width="100%" >
+</p>
+<p>
+    <img src="/images/project_imgs/vton/3.jpg" width="100%" >
+</p>
+<p>
+    <img src="/images/project_imgs/vton/4.jpg" width="100%" >
+</p>
+<p>
+    <img src="/images/project_imgs/vton/5.jpg" width="100%" >
+</p>
+
+
+<ul>
+    <li><strong>Tech Stack</strong>: Python, PyTorch, TensorFlow, OpenCV, FastAPI</li>
+</ul>

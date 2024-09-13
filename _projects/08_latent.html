@@ -1,0 +1,127 @@
+---
+title: "Latent Space Manipulation"
+excerpt: "Edited face features using GANs, tackling entanglement, artifacts, and identity-preserving encoding
+<br/><img src='/images/project_overview/latent.png' style='width:600px; height:250px;'>"
+collection: projects
+---
+
+<p>
+    The goal was to edit different face features in this project, such as making the eyebrow thicker or making someone older. To tackle this problem, manipulating the latent space of GANs was used instead of image processing, so the generator’s output had the desired edit.
+</p>
+<p>
+    There were some issues:
+    <ol>
+        <li>
+            Latent space is famous for its entanglement. As a result, manipulating a single feature may result in unintended outcomes (e.g., making someone balder leads to a more masculine face). As a result, advanced techniques were needed to generate disentangled representations.
+        </li>
+        <li>
+            GANs tend to generate artifacts, which is undesirable, and addressing this problem issue was needed.
+        </li>
+        <li>
+            Because the utilized GANs took a noise vector as input, a mapping from the input image to the latent space was required. However, most mappings are computationally expensive or produce non-identity results, so an efficient identity-preserving encoding method was needed.
+        </li>
+    </ol>
+
+</p>
+
+<p>
+    The models take two different sets of inputs:
+<br>
+    1) Input image+manipulation: applies the manipulation on the input image
+<br>
+
+    2) Input image + Reference image + manipulation: applies the manipulation on the input image according to the reference image
+<br>
+
+    Here are some results for both:
+</p>
+
+<style>
+    table {
+        border: solid green;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid green;
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Input image</th>
+        <th>Output image</th>
+        <th>Manipulation</th>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/two/1_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/two/1_2.png"></td>
+        <td>Age</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/two/2_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/two/2_2.png"></td>
+        <td>Gender</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/two/3_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/two/3_2.png"></td>
+        <td>Beard</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/two/4_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/two/4_2.png"></td>
+        <td>Smile</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/two/5_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/two/5_2.png"></td>
+        <td>Eyeglass</td>
+    </tr>
+</table>
+
+<br>
+<table>
+    <tr>
+        <th>Input image</th>
+        <th>Reference image</th>
+        <th>Output image</th>
+        <th>Manipulation</th>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/three/1_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/1_2.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/1_3.png"></td>
+        <td>Age</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/three/2_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/2_2.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/2_3.png"></td>
+        <td>Age</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/three/3_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/3_2.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/3_3.png"></td>
+        <td>Lighting</td>
+    </tr>
+    <tr>
+        <td><img src="/images/project_imgs/Latent/three/4_1.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/4_2.png"></td>
+        <td><img src="/images/project_imgs/Latent/three/4_3.png"></td>
+        <td>Gender</td>
+    </tr>
+</table>
+<ul>
+    <li><strong>Tech Stack</strong>: Python, PyTorch, Tensorflow, OpenCV, Flask, FastAPI, PyTest, AWS(EC2)</li>
+</ul>
