@@ -57,10 +57,10 @@ redirect_from:
       <strong>April 2024:</strong> <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> accepted at CVPR 2024.
     </li>
     <li style="margin-bottom: 20px;">
-      <strong>September 2023:</strong> Joined Concordia University as a Graduate Research Assistant.
+      <strong>September 2023:</strong> Awarded <strong>Concordia University Split Merit Scholarship, 2023</strong>, $5,000 in Montréal.
     </li>
     <li style="margin-bottom: 20px;">
-      <strong>September 2023:</strong> Awarded <strong>Concordia University Split Merit Scholarship, 2023</strong>, $5,000 in Montréal.
+      <strong>September 2023:</strong> Joined Concordia University as a Graduate Student.
     </li>
   </ul>
 </section>
