@@ -42,7 +42,7 @@ redirect_from:
   <h1>News Timeline</h1>
   <ul class="timeline" style="list-style: none; padding: 0;">
     <li style="margin-bottom: 20px;">
-      <strong>July 2024:</strong><a href="/publication/2024-10-10-buvim" style="color: #0073e6; text-decoration: none;"><em>Vision Mamba for Classification of Breast Ultrasound Images</em></a> accepted at MICCAI 2024.
+      <strong>July 2024:</strong><a href="/publication/2024-10-10-buvim" style="color: #0073e6; text-decoration: none;"><em>Vision Mamba for Classification of Breast Ultrasound Images</em></a> accepted at Deep-Brea3th workshop at MICCAI 2024.
     </li>
     <li style="margin-bottom: 20px;">
       <strong>June 2024:</strong> Presented <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> at CVPR-CVMI 2024 workshop.
@@ -54,7 +54,7 @@ redirect_from:
       <strong>May 2024:</strong> Awarded <strong>FRQNT Masters (B1X) Scholarship</strong>, $26,667, Montréal.
     </li>
     <li style="margin-bottom: 20px;">
-      <strong>April 2024:</strong> <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> accepted at CVPR 2024.
+      <strong>April 2024:</strong> <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> accepted at CVMI workshop at CVPR 2024.
     </li>
     <li style="margin-bottom: 20px;">
       <strong>September 2023:</strong> Awarded <strong>Concordia University Split Merit Scholarship, 2023</strong>, $5,000 in Montréal.
