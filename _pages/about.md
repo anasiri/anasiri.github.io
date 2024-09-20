@@ -48,10 +48,10 @@ redirect_from:
       <strong>June 2024:</strong> Presented <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> at CVPR-CVMI 2024 workshop.
     </li>
     <li style="margin-bottom: 20px;">
-      <strong>May 2024:</strong> Awarded <strong>FRQNT PBEEE Scholarship</strong>, $26,667 + Québec Residency Benefits as an International Student, Montréal.
+      <strong>May 2024:</strong> Awarded <strong>FRQNT PBEEE Scholarship</strong>, Montréal.
     </li>
     <li style="margin-bottom: 20px;">
-      <strong>May 2024:</strong> Awarded <strong>FRQNT Masters (B1X) Scholarship</strong>, $26,667, Montréal.
+      <strong>May 2024:</strong> Awarded <strong>FRQNT Masters (B1X) Scholarship</strong>, Montréal.
     </li>
     <li style="margin-bottom: 20px;">
       <strong>April 2024:</strong> <a href="/publication/2024-06-18-vim4path" style="color: #0073e6; text-decoration: none;"><em>Vim4Path</em></a> accepted at CVMI workshop at CVPR 2024.
